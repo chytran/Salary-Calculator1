@@ -1,0 +1,12 @@
+Salary Tracker To-Do
+-- User's
+    -- hours
+    -- wage/hour
+    -- how many days a week (Options for 1 day - 7 days a week (options tag))
+
+/=========== GOALS =============/
+Create a salary calculator that lets users input hours, wage/hour, and how often they work a week 
+to get an approximation about how much money they will make annually
+
+/=========== DEADLINE =============/
+1/23/2022

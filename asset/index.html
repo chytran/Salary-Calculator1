@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Tracker</title>
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+<body>
+    <section class="hero">
+        <div id="results__container">
+            <h1 id="results"></h1>
+        </div>
+        <div id="asking-container">
+            <h2 id="asking">Salary Calculator</h2>
+        </div>
+        <form id="salary">
+            <div class="wage__container">
+                <label for="wageHours">Wage Per Hour</label>
+                <input required id="wage" type="text" name="wageHours" /> 
+            </div>
+            
+            <div class="hours__container">
+                <label for="salaryHours">Hours Per Week</label>
+                <input required id="hours" type="text" name="salaryHours"/>
+            </div>
+            
+            <div class="salary__container custom-select">
+                <label for="salaryDays">How many days a week?</label>
+                <select required id="salaryDayAmount">
+                    <option>-- --</option>
+                    <option value="1">1 Day</option>
+                    <option value="2">2 Days</option>
+                    <option value="3">3 Days</option>
+                    <option value="4">4 Days</option>
+                    <option value="5">5 Days</option>
+                    <option value="6">6 Days</option>    
+                    <option value="7">7 Days</option>
+                </select>   
+            </div>
+            
+            
+
+            <input id="submit" type="submit" value="Calculate" />
+        </form>
+    </section>
+    
+    <script src="/asset/js/main.js"></script>
+    <!-- <script src="/asset/js/salary.js"></script> -->
+</body>
+</html>
